@@ -1,0 +1,10 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+    {{ Ads }}
+{% endblock title %}
+
+<!-- В контенте на странице мы выводим само объявление, идентификатор которого был передан в url -->
+{% block content %}
+    {{ ads }}
+{% endblock content %}

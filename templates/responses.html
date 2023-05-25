@@ -1,0 +1,10 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+    {{ Responses }}
+{% endblock title %}
+
+<!-- В контенте на странице мы выводим сам отклик, идентификатор которого был передан в url -->
+{% block content %}
+    {{ responses.text }}
+{% endblock content %}
